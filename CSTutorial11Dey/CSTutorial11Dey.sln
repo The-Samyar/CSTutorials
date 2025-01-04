@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35201.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapitalForm", "CapitalForm\CapitalForm.csproj", "{0EF0F471-4F7E-4677-B1EA-8A8C1BA589EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortForm", "SortForm\SortForm.csproj", "{CE78EBD5-F912-47AD-95C5-F4C9CDD2CEA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EF0F471-4F7E-4677-B1EA-8A8C1BA589EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EF0F471-4F7E-4677-B1EA-8A8C1BA589EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EF0F471-4F7E-4677-B1EA-8A8C1BA589EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EF0F471-4F7E-4677-B1EA-8A8C1BA589EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE78EBD5-F912-47AD-95C5-F4C9CDD2CEA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE78EBD5-F912-47AD-95C5-F4C9CDD2CEA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE78EBD5-F912-47AD-95C5-F4C9CDD2CEA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE78EBD5-F912-47AD-95C5-F4C9CDD2CEA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C537EEB2-893D-468E-80B3-05C3BD554E7D}
+	EndGlobalSection
+EndGlobal
