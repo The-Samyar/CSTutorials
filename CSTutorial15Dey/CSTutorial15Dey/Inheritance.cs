@@ -18,6 +18,7 @@ namespace CSTutorial15Dey
     {
         public string dialect = "Torki";
         public string location = "NW";
+
     }
 
     public class Kermanshah : Country

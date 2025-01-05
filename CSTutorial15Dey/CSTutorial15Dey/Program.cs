@@ -30,7 +30,20 @@
             Console.WriteLine("This car can go for "+ tesla.DistanceCovered());
             var benz = new PetrolCar();
             Console.WriteLine("This car can go for "+ benz.DistanceCovered());
+            
+            // Abstraction
+            Console.WriteLine(">>>>>>>>Abstraction");
+            void ShapePrinter(IShape shape)
+            {
+                Console.WriteLine("Area of shape is " + shape.Area);
+                Console.WriteLine("Perimeter of shape is " + shape.Perimeter);
+            }
+            
+            var circle = new Circle(4);
+            ShapePrinter(circle);
 
+            var rectangle = new Rectangle(3, 5);
+            ShapePrinter(rectangle);
         }
     }
 }

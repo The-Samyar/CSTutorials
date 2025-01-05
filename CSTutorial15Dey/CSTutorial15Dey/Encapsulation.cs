@@ -10,6 +10,7 @@ namespace CSTutorial15Dey
     {
         private int stayDays = 0;
         private int bill = 0;
+        private const int PricePerDay =200;
 
         public int Bill {
             get { return bill; }
@@ -18,7 +19,7 @@ namespace CSTutorial15Dey
 
         private void CalculateBill()
         {
-            bill = 200 * StayDays;
+            bill = PricePerDay * StayDays;
         }
 
 
