@@ -11,7 +11,7 @@ namespace CSTutorial15Dey
         public string countryName = "Iran";
         public string nationalLanguage = "Persian";
         public string nationality = "Iranian";
-        public int nationalPhoneNoCode = 0098;
+        public string nationalPhoneNoCode = "+98";
     }
 
     public class Tabriz : Country
