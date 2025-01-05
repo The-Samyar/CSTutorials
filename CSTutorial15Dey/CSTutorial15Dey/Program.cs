@@ -23,6 +23,14 @@
 
             Console.WriteLine(kermanshah.dialect);
             Console.WriteLine(kermanshah.nationalPhoneNoCode);
+
+            // Polymorphism
+            Console.WriteLine(">>>>>>>>Polymorphism");
+            var tesla = new ElectricCar();
+            Console.WriteLine("This car can go for "+ tesla.DistanceCovered());
+            var benz = new PetrolCar();
+            Console.WriteLine("This car can go for "+ benz.DistanceCovered());
+
         }
     }
 }
